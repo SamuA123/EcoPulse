@@ -1,21 +1,102 @@
 export default function Phenology() {
   return (
-    <div className="min-h-screen w-full bg-green-50 p-10 overflow-x-hidden flex flex-col items-center">
-      <h1 className="text-3xl font-bold text-green-900 mb-6">
-        Phenology in Plants
-      </h1>
-      <p className="text-gray-700 leading-relaxed max-w-4xl text-center">
-        Phenology is the study of how seasonal and climatic changes affect plant
-        life cycles, such as flowering, fruiting, and pollination. Observing
-        these events is critical for biodiversity conservation, agricultural
-        planning, and understanding how ecosystems adapt to a changing climate.
-      </p>
+    <div className="min-h-screen w-full bg-green-50 p-10 overflow-x-hidden flex flex-col items-center gap-10">
+  {/* Título principal */}
+  <h1 className="text-4xl md:text-5xl font-bold text-green-900 text-center">
+    Plant Phenology & Ecosystem Patterns
+  </h1>
 
-      <img
-        src="https://images.unsplash.com/photo-1524594081293-190a2fe0baae?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80"
-        alt="Phenology"
-        className="mt-6 rounded-xl shadow-lg max-w-4xl w-full object-cover"
-      />
+  {/* Imagen principal */}
+  <img
+    src="https://images.unsplash.com/photo-1528838068900-1a3b3c69b8e3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80"
+    alt="Phenology"
+    className="w-full max-w-5xl rounded-xl shadow-lg object-cover"
+  />
+
+  {/* Introducción */}
+  <div className="max-w-4xl text-gray-700 text-center leading-relaxed">
+    <p>
+      Plant phenology—the study of the timing of life cycle events such as
+      leaf-out, flowering, and fruiting—is one of the most sensitive indicators
+      of ecosystem health. Changes in these natural rhythms reveal how plants
+      respond to variations in temperature, precipitation, and sunlight. By
+      tracking these patterns globally, scientists can better understand the
+      ecological balance of our planet and the impacts of climate change on
+      biodiversity and productivity.
+    </p>
+  </div>
+
+  {/* Secciones numeradas */}
+  <div className="max-w-4xl flex flex-col gap-6">
+    {/* 1 */}
+    <div className="bg-white p-6 rounded-xl shadow-md">
+      <h2 className="text-2xl font-bold text-green-800 mb-2">
+        1. Seasonal Rhythms and Phenological Cycles
+      </h2>
+      <p className="text-gray-700 leading-relaxed">
+        Phenological events follow seasonal cues that differ across ecosystems.
+        For example, spring bloom in temperate forests or the flowering bursts
+        in tropical savannas mark critical transitions in biological activity.
+        Observing these cycles helps scientists understand how energy and
+        nutrients flow through ecosystems over time.
+      </p>
     </div>
+
+    {/* 2 */}
+    <div className="bg-white p-6 rounded-xl shadow-md">
+      <h2 className="text-2xl font-bold text-green-800 mb-2">
+        2. Satellite Observation of Phenological Shifts
+      </h2>
+      <p className="text-gray-700 leading-relaxed">
+        NASA’s Earth observation platforms—such as MODIS and VIIRS—enable
+        continuous monitoring of vegetation greenness and bloom intensity. These
+        long-term datasets allow researchers to detect phenological shifts, such
+        as earlier or delayed flowering, which serve as early indicators of
+        climate-driven ecosystem change.
+      </p>
+    </div>
+
+    {/* 3 */}
+    <div className="bg-white p-6 rounded-xl shadow-md">
+      <h2 className="text-2xl font-bold text-green-800 mb-2">
+        3. Ecological Interactions and Pollinator Dynamics
+      </h2>
+      <p className="text-gray-700 leading-relaxed">
+        Flowering phenology directly affects pollinator behavior and survival.
+        Mismatches between plant bloom timing and pollinator activity can
+        disrupt food webs. Monitoring these interactions from space provides
+        valuable insights into ecosystem stability and biodiversity resilience.
+      </p>
+    </div>
+
+    {/* 4 */}
+    <div className="bg-white p-6 rounded-xl shadow-md">
+      <h2 className="text-2xl font-bold text-green-800 mb-2">
+        4. Long-Term Phenological Trends
+      </h2>
+      <p className="text-gray-700 leading-relaxed">
+        By analyzing multi-year datasets, BloomWatch helps detect long-term
+        trends in vegetation dynamics. These trends can reveal how ecosystems
+        adapt—or struggle to adapt—to ongoing climate stressors like droughts,
+        heatwaves, and changing precipitation patterns.
+      </p>
+    </div>
+
+    {/* 5 */}
+    <div className="bg-white p-6 rounded-xl shadow-md">
+      <h2 className="text-2xl font-bold text-green-800 mb-2">
+        5. Integrating Ground Observations with Satellite Data
+      </h2>
+      <p className="text-gray-700 leading-relaxed">
+        Combining local field data from citizen scientists, researchers, and
+        automated sensors with NASA’s satellite imagery enhances accuracy and
+        spatial coverage. This hybrid approach strengthens the global phenology
+        database and fosters collaboration across scientific and environmental
+        communities.
+      </p>
+    </div>
+  </div>
+</div>
+
   );
 }
