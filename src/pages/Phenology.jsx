@@ -8,7 +8,7 @@ export default function Phenology() {
 
   {/* Imagen principal */}
   <img
-    src="https://images.unsplash.com/photo-1528838068900-1a3b3c69b8e3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80"
+    src="https://i.pinimg.com/originals/b7/00/e9/b700e9ec890f2fd45b00a47abcc55c35.jpg"
     alt="Phenology"
     className="w-full max-w-5xl rounded-xl shadow-lg object-cover"
   />
