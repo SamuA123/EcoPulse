@@ -151,4 +151,4 @@ You are free to use, modify, and distribute it with proper credit to the origina
 
 Developed by Supernova Sparks
 🌍 Project: EcoPulse – Tracking Blooming with NASA Satellite Data
-🛰️ NASA Space Apps Challenge 2025 Submission
+🛰️ NASA Space Apps Challenge 2025 Submission.
