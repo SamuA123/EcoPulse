@@ -6,7 +6,7 @@ import Vegetation from "./pages/Vegetation";
 import Agriculture from "./pages/Agriculture";
 import Phenology from "./pages/Phenology";
 import Chatbot from "./pages/Chatbot"; // 👈 nuevo
-import FloatingChatbot from "./components/FloatingChatbot";
+import FloatingChatBot from "./components/FloatingChatBot";
 
 export default function App() {
   return (
@@ -21,7 +21,7 @@ export default function App() {
           <Route path="/chatbot" element={<Chatbot />} /> {/* 👈 nueva ruta */}
         </Route>
       </Routes>
-      <FloatingChatbot />
+      <FloatingChatBot />
     </Router>
   );
 }
