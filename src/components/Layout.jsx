@@ -12,7 +12,7 @@ export default function Layout() {
 
         {/* Links de navegación */}
         <div className="flex space-x-6">
-          
+          <Link to="/learning" className="hover:text-green-300 transition">Learning with us</Link>
           <Link to="/vegetation" className="hover:text-green-300 transition">Vegetation</Link>
           <Link to="/agriculture" className="hover:text-green-300 transition">Agriculture</Link>
           <Link to="/phenology" className="hover:text-green-300 transition">Phenology</Link>
