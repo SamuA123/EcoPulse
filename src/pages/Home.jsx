@@ -30,7 +30,7 @@ export default function Home() {
     <div className="min-h-screen bg-gray-50">
       {/* Banner */}
       <section
-        className="relative w-full h-[70vh] flex items-center justify-center bg-cover bg-center"
+        className="relative w-full h-[70vh] flex items-center justify-center bg-cover bg-center z-0"
         style={{
           backgroundImage:
             "url('https://i.pinimg.com/originals/ba/f2/07/baf207b32472727522012586467ac168.jpg')",
@@ -59,7 +59,7 @@ export default function Home() {
       </section>
 
       {/* Cards */}
-      <section className="py-16 px-6 md:px-16 grid grid-cols-1 md:grid-cols-3 gap-8">
+      <section className="relative py-16 px-6 md:px-16 grid grid-cols-1 md:grid-cols-3 gap-8 z-0">
         {[{
           title: "Vegetation & Climate",
           text: "Explore how vegetation cycles reflect the relationship between seasonal changes and climate. Discover how ecosystems adapt across different biomes.",
@@ -93,8 +93,8 @@ export default function Home() {
         ))}
       </section>
 
-      {/* Map + Timeline */}
-      <div className="p-6">
+      {/* Map + Timeline - Con z-index bajo para no cubrir el chatbot */}
+      <div className="relative p-6 z-0">
         <NasaMap date={selectedDate} />
         <Timeline dates={dates} onDateChange={(date) => setSelectedDate(date)} />
       </div>
